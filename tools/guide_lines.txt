@@ -1,0 +1,51 @@
+# Voice script for the AI guide (id|text). Only used to generate the voice clips:
+#   powershell -ExecutionPolicy Bypass -File tools/generate_guide_audio.ps1
+# The lines the game uses are on the Guide object in each scene (GuideService > Lines); keep the text the same.
+intro|Welcome aboard the orbital station. Take a moment to look around. Look at objects to identify them, and use the handrails to move.
+look_done|Good. You are familiar with the module. We have a problem with the communications antenna.
+diagnose|Float to the communications panel on the right wall and press the diagnostics button.
+diagnose_done|Diagnostics confirm a loose cable at the antenna base. You will need to repair it outside.
+toolkit|Collect the repair tool kit from the tool storage locker near the airlock.
+toolkit_done|Tool kit collected and stowed on your belt.
+toolkit_needed|You need the repair tool kit first.
+airlock_out|Enter the airlock and press the cycle button.
+airlock_cycling|Airlock cycling. Hold position.
+airlock_occupied|Move fully inside the airlock before cycling.
+airlock_out_done|Outer hatch open. You are now outside the station.
+traverse|Follow the handrails along the truss to the communication antenna. Move hand over hand.
+traverse_done|You have reached the antenna.
+open_panel|Press the latch on the maintenance panel to open it.
+panel_done|Maintenance panel open. Find the loose cable.
+reconnect|Grab the floating cable plug and push it into the connection point inside the panel.
+cable_done|Cable connected.
+restored|Signal restored. Communications are back online. Great work.
+return|Return along the handrails to the airlock and cycle back inside.
+complete|Welcome back inside. Mission complete.
+hint|Take your time. Look around for the highlighted objective.
+paused|Session paused.
+resumed|Resuming.
+estop|Session stopped. Stay still. The operator will assist you.
+tracking_lost|Tracking lost. Please hold still.
+tracking_ok|Tracking restored.
+hands_lost|I can't see your hands. Hold them in front of you.
+tether|Your safety tether is pulling you back toward the station.
+pg_welcome|Welcome to the test playground. Each station tests one feature.
+pg_test|This is a test line from the guide.
+obj_window|An observation window. Earth is below you, about four hundred kilometres away.
+obj_cabinet|An equipment cabinet holding experiment hardware.
+obj_lifesupport|The life support rack. It controls air and temperature.
+obj_comms|The communications panel. It shows the antenna signal status.
+obj_toolstorage|The tool storage locker.
+obj_toolkit|The repair tool kit. It contains a driver and cable tools.
+obj_airlock|The airlock. It connects the station interior to space.
+obj_handrail|A handrail. Grab it and pull to move.
+obj_antenna|The communication antenna. It links the station to ground control.
+obj_panel|The maintenance panel at the base of the antenna.
+obj_cable|The antenna cable plug. It must go into the connection point.
+obj_socket|The cable connection point.
+obj_earth|Earth. The station orbits it about every ninety minutes.
+obj_wrench|A wrench. In zero gravity it keeps drifting once released.
+obj_cube|A test cube.
+obj_sphere|A test sphere.
+obj_cylinder|A test cylinder.
+obj_button|A button. Press it with your fingertip.

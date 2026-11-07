@@ -1,0 +1,10 @@
+{
+    "name": "Arkasa.Runtime",
+    "rootNamespace": "Arkasa",
+    "references": ["Oculus.VR", "Oculus.Interaction", "Unity.InputSystem", "UnityEngine.UI"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}
